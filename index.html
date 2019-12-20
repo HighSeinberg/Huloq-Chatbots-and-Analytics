@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Huloq Digital Chatbots</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <!-- Favicons -->
+  <link href="img/huloq-logo.png" rel="icon">
+  <link href="img/huloq-logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap css -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <link href="lib/modal-video/css/modal-video.min.css" rel="stylesheet">
+
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style2.css">
+
+</head>
+
+<body>
+
+  <header id="header" class="header header-hide">
+    <div class="container">
+
+      <div id="logo" class="pull-left" style="display: flex;">
+        <a href="#hero"><img src="img/huloq-logo.png" class="navbar_logo" alt="" title="" /></a>
+        <h1><a href="#hero" class="scrollto" style="margin-left: 5px; color: whitesmoke;">Huloq</a></h1>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about-us">About</a></li>
+          <li><a href="#features">Products</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#login" onclick="login()">Login</a></li>
+          <!--<li class="menu-has-children"><a href="">Login In</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>-->
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero" class="wow fadeIn">
+    <div class="hero-container">
+      <h1>Huloq</h1>
+      <h2>Data collection, customer retention and feedback chatbots</h2>
+      <img src="img/hero-img.png" alt="Hero Imgs">
+      <a href="https://calendly.com/huloq-chatbot-demo/15min" target="_blank" class="btn-get-started scrollto">Get a free demo</a>
+      <!--<div class="btns">
+        <a href="#"><i class="fa fa-apple fa-3x"></i> App Store</a>
+        <a href="#"><i class="fa fa-play fa-3x"></i> Google Play</a>
+        <a href="#"><i class="fa fa-windows fa-3x"></i> windows</a>
+      </div>-->
+    </div>
+  </section><!-- #hero -->
+
+  <!--==========================
+    Get Started Section
+  ============================-->
+  <section id="get-started" class="padd-section text-center wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+
+        <h2>Get to know your userbase</h2>
+        <p class="separator">AI based chatbots to automate your business</p>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+
+            <img src="img/svg/undraw_predictive_analytics_kf9n.svg" alt="img" class="started_img img-fluid">
+            <h4>Convert visitors into sales</h4>
+            <p>Help shoppers find the perfect products, upsell & cross-sell, quickly grow your email list, and more with a smart virtual sales assistant.</p>
+            <!--<a href="#">read more</a>-->
+
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+
+            <img src="img/svg/undraw_online_chat_d7ek.svg" alt="img" class="started_img img-fluid">
+            <h4>Instantly answer questions</h4>
+            <p>Increase customer satisfaction by automatically answering customer's questions. Gather contact info for follow-up when needed.</p>
+            <!--<a href="#">read more</a>-->
+
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+
+            <img src="img/svg/undraw_observations_mejb.svg" alt="img" class=" started_img img-fluid">
+            <h4>Collect customer feedback</h4>
+            <p>Transform feedback & data collection into a real-time, conversational experience. Automatically ask intelligent follow-up questions.</p>
+            <!--<a href="#">read more</a>-->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!--==========================
+    About Us Section
+  ============================-->
+  <section id="about-us" class="about-us padd-section wow fadeInUp">
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-md-5 col-lg-3">
+          <img src="img/aappx01.jpg" style="width: 400px;" class="about_image" alt="About">
+        </div>
+
+        <div class="col-md-7 col-lg-5">
+          <div class="about-content">
+
+            <h2>Not just a Chatbot startup, <br>It's a customer retention <br><span>marketing solution</span></h2>
+
+            <!--<ul class="list-unstyled">
+              <li><i class="fa fa-angle-right"></i>Creative Design</li>
+              <li><i class="fa fa-angle-right"></i>Retina Ready</li>
+              <li><i class="fa fa-angle-right"></i>Easy to Use</li>
+              <li><i class="fa fa-angle-right"></i>Unlimited Features</li>
+              <li><i class="fa fa-angle-right"></i>Unlimited Features</li>
+            </ul>-->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Products Section
+  ============================-->
+
+  <section id="features" class="padd-section text-center wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Amazing Products</h2>
+        <p class="separator">Our customer friendly chatbot ensures that you’re work as an eComm store owner is eased. From cross sells, up sells, followups, order tracking, customer engagement, to  customer data collection — you can trust us</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+            <img src="img/products/webchat.png" alt="img" class="img-fluid">
+            <h4>Web Chatbot</h4>
+            <p>Convert every website visitor into a potential customer using our web chatbot. Answer FAQs, get feedback and generate leads 24/7.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+            <img src="img/products/messenger.png" alt="img" class="img-fluid">
+            <h4>Messenger Chatbot</h4>
+            <p>Engage with customers and grow your business automatically on Messenger. Messenger has more than 1Bn active users.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="feature-block">
+            <img src="img/products/whatsapp.png" alt="img" class="img-fluid">
+            <h4>WhatsApp Marketing Solutions</h4>
+            <p>Use advanced combination of push notifications, pop ups and chat assistants to leverage your WhatsApp and make more sales instantly.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Screenshots Section
+  ============================-->
+  <section id="screenshots" class="padd-section text-center wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Screenshots</h2>
+        <p class="separator">Have a look at how your business would look like.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="owl-carousel owl-theme">
+
+        <div><img src="img/screenshots/sc1.jpeg" alt="img"></div>
+        <div><img src="img/screenshots/sc2.jpeg" alt="img"></div>
+        <div><img src="img/screenshots/sc3.jpeg" alt="img"></div>
+        <div><img src="img/screenshots/sc4.jpeg" alt="img"></div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!--==========================
+    Video Section
+  ============================-->
+
+  <section id="video" class="text-center wow fadeInUp">
+    <div class="overlay">
+      <div class="container-fluid container-full" style="height: 900px;">
+
+        <div class="row" style="text-align: center; display: block;">
+          <br><br>
+            <h2 class="video_text">Most Powerful & Customizable <br>
+                Chatbot Marketing Solution</h2> <br>
+
+            <p class="video_para">Brilliant customer retention strategies that would help you help you boost sales, gain loyalty and generate leads 24/7</p>
+
+          <a style="margin-top: 2px;" href="https://www.youtube.com/watch?v=hkn7k7lmHZ4" class="js-modal-btn play-btn" data-video-id="hkn7k7lmHZ4"></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Team Section
+  ============================-->
+  <section id="team" class="padd-section text-center wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+
+        <h2>Meet our Team</h2>
+        <p class="separator">We are a group of highly motivated individuals working together.</p>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row team_box">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="team-block bottom">
+            <img src="img/team/1.jpeg" class="img-responsive" alt="img">
+            <div class="team-content">
+              <ul class="list-unstyled">
+                <li><a href="https://www.facebook.com/harish.uthayakumar.50"><i class="fa fa-facebook"></i></a></li>
+                <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                <li><a href="https://www.linkedin.com/in/harish-uthayakumar/"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+              <span>Co-Founder</span>
+              <h4>Harish Uthayakumar</h4>
+            </div>
+          </div>
+        </div>
+
+       <div class="col-md-6 col-lg-4">
+          <div class="team-block bottom">
+            <img src="img/team/2.jpeg" class="img-responsive" alt="img">
+            <div class="team-content">
+              <ul class="list-unstyled">
+                <li><a href="https://www.facebook.com/shreyans.sancheti.33"><i class="fa fa-facebook"></i></a></li>
+                <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                <li><a href="https://www.linkedin.com/in/shreyans-sancheti-43a4a2170/"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+              <span>Co-Founder</span>
+              <h4>Shreyans Sancheti</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="team-block bottom">
+            <img src="img/team/6.jpeg" class="img-responsive" alt="img">
+            <div class="team-content">
+              <ul class="list-unstyled">
+                <li><a href="https://www.facebook.com/profile.php?id=100001058951607"><i class="fa fa-facebook"></i></a></li>
+                <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                <li><a href="https://www.linkedin.com/in/kenancollaco/"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+              <span>Chief Technical Officer</span>
+              <h4>Kenan Collaco</h4>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 col-lg-4">
+          <div class="team-block bottom">
+            <img src="img/team/4.jpeg" class="img-responsive" alt="img">
+            <div class="team-content">
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+              <span>Automation Head</span>
+              <h4>Anmol Singh</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="team-block bottom">
+            <img src="img/team/3.jpeg" class="img-responsive" alt="img">
+            <div class="team-content">
+              <ul class="list-unstyled">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                <li><a href="https://www.linkedin.com/in/pranjal-singh-mandloi-8b424118b/"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+              <span>Web Chatbots Head</span>
+              <h4>Pranjal Singh Mandloi</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="team-block bottom">
+            <img src="img/team/5.jpg" class="img-responsive" alt="img">
+            <div class="team-content">
+              <ul class="list-unstyled">
+                <li><a href="https://www.facebook.com/saumya.bhatt.5496"><i class="fa fa-facebook"></i></a></li>
+                <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                <li><a href="https://www.linkedin.com/in/saumya-bhatt-2000/"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+              <span>Website Lead</span>
+              <h4>Saumya Bhatt</h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!--==========================
+    Testimonials Section
+  ============================-->
+
+  <section id="testimonials" class="padd-section text-center wow fadeInUp">
+    <div class="container">
+
+      <div class="section-title text-center">
+
+        <h2>Testimonials</h2>
+        <p class="separator">Our users speak volumes about us.</p>
+
+      </div>
+      
+      <div class="row justify-content-center">
+
+        <div class="col-md-8">
+
+          <div class="testimonials-content">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+              <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item  active">
+                  <div class="top-top">
+
+                    <p>This is absolutely brilliant!</p>
+                    <h4>Keshav Suri<span>Owner, The Lalit</span></h4>
+
+                  </div>
+                </div>
+
+                <div class="carousel-item ">
+                  <div class="top-top">
+
+                    <p>The chatbot helped us save a life by chatting with a patient on our website.</p>
+                    <h4>Gitanjali Bannerjee<span>founder <a href="http://fertilitydost.com/"> fertilitydost.com</a></span></h4>
+
+                  </div>
+                </div>
+
+                <!--<div class="carousel-item ">
+                  <div class="top-top">
+
+                    <h2>Our Users Speack volumes us</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book. It has survived not only five centuries.</p>
+                    <h4>David Spark<span>manager</span></h4>
+
+                  </div>
+                </div>-->
+
+              </div>
+
+              <div class="btm-btm">
+
+                <ul class="list-unstyled carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
+                </ul>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Pricing Table Section
+  ============================-->
+  <section id="pricing" class="padd-section text-center wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+
+        <h2>Meet With Price</h2>
+        <p class="separator">Find the perfect plan that suits your needs.</p>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="block-pricing">
+            <div class="table">
+              <h4>Toddler Plan</h4>
+              <h2>$0/month</h2>
+              <ul class="list-unstyled">
+                <li>Lead Generation Bot</li>
+                <li><b>Live</b> Chat</li>
+                <li>WhatsApp Marketing Tool</li>
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+              </ul>
+              <div class="table_btn">
+                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="block-pricing">
+            <div class="table">
+              <h4>Teenage Plan</h4>
+              <h2>$25/month</h2>
+              <ul class="list-unstyled">
+                <li>Lead Generation and FAQ Bot</li>
+                <li><b>Live</b> Chat</li>
+                <li><b>Customer Retention </b>Tool</li>
+                <li>WhatsApp Marketing Tool</li>
+                <li><b>Analytics</b> Dashboard</li>
+                <li><b>24/7</b> Support</li>
+              </ul>
+              <div class="table_btn">
+                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="block-pricing">
+            <div class="table">
+              <h4>Adult Plan</h4>
+              <h2>- / -</h2>
+              <ul class="list-unstyled">
+                <li><b>Custom needs require custom solutions.</b> <br> Schedule a call, today</li>
+                <li>Includes all the features of Toddler and Teenage plan and more customs services built on top.</li>
+                <li>Garunteed <b>2x ROI</b></li>
+              </ul>
+              <div class="table_btn">
+                <a style="margin-top: 15px;" href="https://calendly.com/huloq-chatbot-demo/15min" class="btn"><i class="fa fa-phone"></i> Schedule Call</a style="margin-top: 15px;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Blog Section
+  ============================-->
+  <!--<section id="blog" class="padd-section wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+
+        <h2>Latest posts</h2>
+        <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4">
+          <div class="block-blog text-left">
+            <a href="#"><img src="img/blog/blog-image-1.jpg" alt="img"></a>
+            <div class="content-blog">
+              <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
+              <span>05, juin 2017</span>
+              <a class="pull-right readmore" href="#">read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="block-blog text-left">
+            <a href="#"><img src="img/blog/blog-image-2.jpg" class="img-responsive" alt="img"></a>
+            <div class="content-blog">
+              <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
+              <span>05, juin 2017</span>
+              <a class="pull-right readmore" href="#">read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="block-blog text-left">
+            <a href="#"><img src="img/blog/blog-image-3.jpg" class="img-responsive" alt="img"></a>
+            <div class="content-blog">
+              <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
+              <span>05, juin 2017</span>
+              <a class="pull-right readmore" href="#">read more</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>-->
+
+  <!--==========================
+    Newsletter Section
+  ============================-->
+  <section id="newsletter" class="newsletter text-center wow fadeInUp">
+    <div class="overlay padd-section">
+      <div class="container">
+
+        <br>
+        <p class="video_para">Subscribe to get update with latest chatbot trends and how you can grow</p>
+
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+          <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+
+              <form action="https://gmail.us4.list-manage.com/subscribe/post?u=ab76c47ec44498d71766fab0d&amp;id=e9248e8810" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_ab76c47ec44498d71766fab0d_e9248e8810" tabindex="-1" value="">
+                  </div>
+                  <div class="clear">
+                    <input  style="margin: auto;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="newsletter_subscribe">
+                  </div>
+
+                </div>
+              </form >
+
+            </div>
+          </div>
+        </div>
+
+          <!--<ul class="list-unstyled">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>-->
+
+
+      </div>
+    </div>
+  </section>
+
+  <!--==========================
+    Contact Section
+  ============================-->
+  <section id="contact" class="padd-section wow fadeInUp">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2 style="color: whitesmoke;">Contact Us</h2>
+        <p class="separator">Want to know more about us? Reach out to us today!</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-3 col-md-4">
+
+          <div class="info">
+            <div>
+              <i class="fa fa-map-marker"></i>
+              <p style="color: whitesmoke;">BITS-Pilani, K.K. Birla Goa Campus<br>Zuarinagar, Goa</p>
+            </div>
+
+            <div class="email">
+              <i class="fa fa-envelope"></i>
+              <p style="color: whitesmoke;">huloq.chatbots@gmail.com</p>
+            </div>
+
+            <div>
+              <i class="fa fa-phone"></i>
+              <p style="color: whitesmoke;">+91 8329688632</p>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://twitter.com/HuloqInc" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/huloq/" class="facebook"><i class="fa fa-facebook"></i></a>
+            <!--<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>-->
+            <a href="https://www.linkedin.com/company/huloq/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          </div>
+
+        </div>
+
+        <div class="col-lg-5 col-md-8">
+
+          <div class="form" id="contact_form">
+            <div id="sendmessage">Your message has been sent. Thank you!</div>
+            <div id="errormessage"></div>
+            <form method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:1" required />
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" required />
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" id="message"rows="5" data-rule="required" required placeholder="Your Message"></textarea>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- #contact -->
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer class="footer">
+    <!--<div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-lg-4">
+          <div class="footer-logo">
+
+            <a class="navbar-brand" href="#">eStartup</a>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Abou Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Features item</a></li>
+              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Abou Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Features item</a></li>
+              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Support</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">faq</a></li>
+              <li><a href="#">Editor help</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Abou Us</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Features item</a></li>
+              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>-->
+
+    <div class="copyrights">
+      <div class="container">
+        <p>&copy; Copyrights Huloq. All rights reserved.</p>
+        <div class="credits">
+          Designed by <a href="https://www.linkedin.com/in/saumya-bhatt-2000/">Saumya Bhatt</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+
+<script src="js/contact_us.js"></script>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/modal-video/js/modal-video.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+  <script type="text/javascript">
+		function login() {
+			swal('Sorry! This function is currently unavailable.');
+		}
+	</script>
+
+
+
+</body>
+</html>
