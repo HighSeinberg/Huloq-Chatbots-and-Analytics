@@ -4,8 +4,12 @@
   <meta charset="utf-8">
   <title>Huloq Digital Chatbots</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <meta content="Chatbots Chatbot AI Artificial Intelligence ML Machine Learning startup Analytics" name="keywords">
+  <meta content="Huloq AI provides an all in one experience that helps websites build their business. 
+  It's an end to end solution right from bot building to analytics. We build AI assistants and conversational chatbots that allows 
+  websites to run on auto-pilot to generate leads and enhance customer support. We also build WhatsApp products and tools that help 
+  SMEs convert website visitors into WhatsApp leads. We at Huloq believe that customer experience is the key and strive to give the 
+  very best version of ourselves to the customer." name="description">
 
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
@@ -56,7 +60,7 @@
           <li><a href="#team">Team</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#login" onclick="login()">Login</a></li>
+          <li><a href="#login"  onclick="document.getElementById('login_modal').style.display='block'">Login</a></li>
           <!--<li class="menu-has-children"><a href="">Login In</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -69,6 +73,36 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
+
+
+
+  <!--==========================
+    Login/Sign Up Modal
+  ============================-->
+  <div id="login_modal" class="modal">
+  
+    <form class="modal-content animate" action="php/login.php" method="POST">
+      
+      <div class="card">
+        <div class="card-header">
+          Sign-In
+        </div>
+        <div class="card-body" style="background-color: #26323E;">
+          <h5 class="card-title">We are glad you are back!</h5>
+          <p style="color: grey;">Login using your username and password to access the Analytic Dashboard.</p><br>
+          <input type="email" placeholder="Your Email" name="login_email" required class="login_input"><br>
+          <input type="password" placeholder="Your Password" name="login_password" required class="login_input"><br>
+          <p>New to Huloq? <a href="signup.html">Sign Up</a> now!</p><br>
+          <button class="btn btn-primary" type="submit" style="background-color: 	#49AE86;">LOGIN</button>
+          <button type="button" onclick="document.getElementById('login_modal').style.display='none'" style="float: right; border: none;" class="cancelbtn">CANCEL</button>
+        </div>
+      </div>
+  
+    </form>
+  </div>
+
+
+
 
   <!--==========================
     Hero Section
@@ -480,7 +514,7 @@
                 <li>-</li>
               </ul>
               <div class="table_btn">
-                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>
+                <a href="https://calendly.com/huloq-chatbot-demo/15min" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>
               </div>
             </div>
           </div>
@@ -500,7 +534,7 @@
                 <li><b>24/7</b> Support</li>
               </ul>
               <div class="table_btn">
-                <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>
+                <a href="https://rzp.io/i/VOJube8" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>
               </div>
             </div>
           </div>
@@ -807,12 +841,9 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
-  <script type="text/javascript">
-		function login() {
-			swal('Sorry! This function is currently unavailable.');
-		}
-	</script>
 
 
 
